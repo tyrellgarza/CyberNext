@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+}
+
+h1, h2, h3 {
+    font-family: 'Nunito Sans', Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* Nav bar styling */
+nav {
+    background-color: #94DADE;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+    border-bottom: .2rem dotted #f0f0f0;
+    transition: .25s ease-in-out;
+}
